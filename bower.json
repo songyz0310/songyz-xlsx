@@ -1,0 +1,24 @@
+{
+  "name": "songyz-xlsx",
+  "homepage": "https://github.com/songyz0310/songyz-xlsx",
+  "main": "dist/xlsx.js",
+  "version": "0.0.1",
+  "ignore": [
+    "bin",
+    "bits",
+    "misc",
+    "**/.*"
+  ],
+  "keywords": [
+    "excel",
+    "xls",
+    "xml",
+    "xlsx",
+    "xlsm",
+    "xlsb",
+    "ods",
+    "js-xls",
+    "songyz",
+    "js-xlsx"
+  ]
+}
