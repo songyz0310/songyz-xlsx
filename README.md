@@ -23,7 +23,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ```bash
 # with npm install dependency
-npm install songyz-style --save
+npm install songyz-xlsx --save
 
 
 # core code

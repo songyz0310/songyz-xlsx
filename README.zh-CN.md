@@ -23,7 +23,7 @@
 
 ```bash
 # 使用npm 安装依赖
-npm install songyz-style --save
+npm install songyz-xlsx --save
 
 # 核心代码
 # import example
