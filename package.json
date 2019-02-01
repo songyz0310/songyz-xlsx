@@ -1,18 +1,15 @@
 {
     "name": "songyz-xlsx",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "author": "songyz",
     "description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer (extended to enable read/write of cell formats with xlsx files)",
     "keywords": [
       "excel",
       "xls",
       "xlsx",
-      "xlsb",
-      "xlsm",
-      "ods",
       "office",
       "songyz",
-      "spreadsheet"
+      "songyz-xlsx"
     ],
     "bin": {
       "xlsx": "./bin/xlsx.njs"
