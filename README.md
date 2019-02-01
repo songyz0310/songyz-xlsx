@@ -31,7 +31,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Introduction
 
-[songyz-xlsx](https://github.com/songyz0310/songyz-xlsx) is a tool for working with Excel, It is based on [js-xlsx](https://github.com/SheetJS/js-xlsx) extended development to achieve some of the company's business needs, if there is a problem, you can reply[about js-xlsx](https://www.cnblogs.com/songyz/p/10345469.html)comment on the message, convenient for everyone to learn and progress together.
+[songyz-xlsx](https://github.com/songyz0310/songyz-xlsx) is a tool for working with Excel, It is based on [js-xlsx] (https://github.com/SheetJS/js-xlsx) extended development to achieve some of the company's business needs, if there is a problem, you can reply [about js-xlsx] (https://www.cnblogs.com/songyz/p/10345469.html)comment on the message, convenient for everyone to learn and progress together.
 
 ## Features
 
