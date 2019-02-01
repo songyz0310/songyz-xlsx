@@ -3,27 +3,19 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/topics/node">
+    <img src="./dist/svg/node.svg" alt="node">
+  </a>
+  <a href="https://github.com/topics/npm">
+    <img src="./dist/svg/npm.svg" alt="npm">
+  </a>
   <a href="https://stuk.github.io/jszip">
-    <img src="./dist/svg/jszip.svg" alt="vue">
+    <img src="./dist/svg/jszip.svg" alt="jszip">
   </a>
-  <a href="https://github.com/ElemeFE/element">
-    <img src="https://img.shields.io/badge/element--ui-2.4.11-brightgreen.svg" alt="element-ui">
+  <a href="https://github.com/commander-rb/commander">
+    <img src="./dist/svg/commander.svg" alt="commander">
   </a>
-  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
-  </a>
-  <a href="https://gitter.im/vue-element-admin/discuss">
-    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter">
-  </a>
-  <a href="https://panjiachen.github.io/vue-element-admin-site/donate">
-    <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
-  </a>
+  
 </p>
 
 English | [简体中文](./README.zh-CN.md)
