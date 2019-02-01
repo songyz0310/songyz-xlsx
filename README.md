@@ -4,25 +4,25 @@
 
 <p align="center">
   <a href="https://github.com/topics/node">
-    <img src="./dist/svg/node.svg" alt="node">
+    <img src="./dist/svg/node.svg?sanitize=true" alt="node">
   </a>
   <a href="https://github.com/topics/npm">
-    <img src="./dist/svg/npm.svg" alt="npm">
+    <img src="./dist/svg/npm.svg?sanitize=true" alt="npm">
   </a>
   <a href="https://stuk.github.io/jszip">
-    <img src="./dist/svg/jszip.svg" alt="jszip">
+    <img src="./dist/svg/jszip.svg?sanitize=true" alt="jszip">
   </a>
   <a href="https://github.com/commander-rb/commander">
-    <img src="./dist/svg/commander.svg" alt="commander">
+    <img src="./dist/svg/commander.svg?sanitize=true" alt="commander">
   </a>
   <a href="https://github.com/commander-rb/ssf">
-    <img src="./dist/svg/ssf.svg" alt="ssf">
+    <img src="./dist/svg/ssf.svg?sanitize=true" alt="ssf">
   </a>
   <a href="./dist/LICENSE">
-    <img src="./dist/svg/license.svg" alt="license">
+    <img src="./dist/svg/license.svg?sanitize=true" alt="license">
   </a>
   <a href="https://github.com/songyz0310/songyz-xlsx/tree/develop">
-    <img src="./dist/svg/release.svg" alt="GitHub release">
+    <img src="./dist/svg/release.svg?sanitize=true" alt="GitHub release">
   </a>
   
 </p>
