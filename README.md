@@ -46,9 +46,77 @@ English | [简体中文](./README.zh-CN.md)
 ## Getting started
 
 ```bash
-# with npm
-# install dependency
+# with npm install dependency
 npm install songyz-style --save
+
+
+# import example
+import XLSX from 'songyz-xlsx'
+
+export const importSlsx = (file, opts) => {
+    return new Promise(function (resolve, reject) {
+        const reader = new FileReader()
+        reader.onload = function (e) {
+            opts = opts || {};
+
+            opts.type = 'binary';
+            opts._dateType = opts._dateType || 1; //1,"yyyy-MM-dd hh:mm",2,时间戳
+            opts._numberType = opts._numberType || 1; //1,不适用科学计数法,2,使用科学计数法
+
+            const wb = XLSX.read(e.target.result, opts);
+            resolve(Object.keys(wb.Sheets).map(key => XLSX.utils.sheet_to_json(wb.Sheets[key])).reduce((prev, next) => prev.concat(next)))
+        }
+        reader.readAsBinaryString(file.raw)
+    })
+}
+
+# export example 
+export const exportXlsx = (dataArray, fileName) => {
+    let type = 'xlsx';
+    dataArray = dataArray || [{}];
+    fileName = fileName || 'file';
+
+    var keyMap = Object.keys(dataArray[0]);
+    var title = {};
+    keyMap.forEach(key => title[key] = key);
+    dataArray.unshift(title);
+
+    var sheetData = [];
+
+    dataArray.map((row, i) => {
+        let style = i == 0 ? titleStyle : bodyStyle;
+        return keyMap.map((key, j) => {
+            return {
+                style: style,
+                value: row[key],
+                position: (j > 25 ? getCharCol(j) : String.fromCharCode(65 + j)) + (i + 1)
+            };
+        })
+    }).reduce((prev, next) => prev.concat(next)).forEach((cell, i) =>
+        sheetData[cell.position] = {
+            v: cell.value,
+            s: cell.style
+        }
+    );
+    var outputPos = Object.keys(sheetData); 
+
+    var wb = {
+        SheetNames: ['mySheet'], 
+        Sheets: {
+            'mySheet': Object.assign({},
+                sheetData, 
+                {
+                    '!ref': outputPos[0] + ':' + outputPos[outputPos.length - 1] 
+                }
+            )
+        }
+    };
+    
+    var buffer = XLSX.write(wb, { bookType: type, bookSST: false, type: 'buffer' });
+
+    writeFile(fileName + "." + type, buffer);
+}
+
 
 ```
 
@@ -56,10 +124,10 @@ npm install songyz-style --save
 
 If you find this project useful, you can buy author a glass of juice :tropical_drink:
 
-![donate](./dist/svg/pay02.jpg)
+![donate](./dist/svg/pay.jpg)
 
 ## License
 
 [MIT](./dist/LICENSE)
 
-Copyright (c) 2017-present songyz
+Copyright (c) 2019-present songyz
