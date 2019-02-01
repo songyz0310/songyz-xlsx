@@ -56,7 +56,7 @@ npm install songyz-style --save
 
 If you find this project useful, you can buy author a glass of juice :tropical_drink:
 
-![donate](./dist/svg/pay.jpg)
+![donate](./dist/svg/pay02.jpg)
 
 ## License
 
