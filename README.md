@@ -50,7 +50,7 @@ English | [简体中文](./README.zh-CN.md)
 npm install songyz-style --save
 
 
-# 
+# core code
 # import example
 import XLSX from 'songyz-xlsx'
 
