@@ -2,30 +2,6 @@
   <img width="320" src="https://avatars1.githubusercontent.com/u/32382526?s=460&v=4">
 </p>
 
-<p align="center">
-  <a href="https://github.com/topics/node">
-    <img src="./dist/svg/node.svg?sanitize=true" alt="node">
-  </a>
-  <a href="https://github.com/topics/npm">
-    <img src="./dist/svg/npm.svg?sanitize=true" alt="npm">
-  </a>
-  <a href="https://stuk.github.io/jszip">
-    <img src="./dist/svg/jszip.svg?sanitize=true" alt="jszip">
-  </a>
-  <a href="https://github.com/commander-rb/commander">
-    <img src="./dist/svg/commander.svg?sanitize=true" alt="commander">
-  </a>
-  <a href="https://github.com/commander-rb/ssf">
-    <img src="./dist/svg/ssf.svg?sanitize=true" alt="ssf">
-  </a>
-  <a href="./dist/LICENSE">
-    <img src="./dist/svg/license.svg?sanitize=true" alt="license">
-  </a>
-  <a href="https://github.com/songyz0310/songyz-xlsx/tree/develop">
-    <img src="./dist/svg/release.svg?sanitize=true" alt="GitHub release">
-  </a>
-  
-</p>
 
 [English](./README.md) | 简体中文
 
@@ -122,7 +98,7 @@ export const exportXlsx = (dataArray, fileName) => {
 ## Donate
 
 如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 :tropical_drink:
-![donate](./dist/svg/pay.jpg)
+![donate](./dist/pay.jpg)
 
 
 ## License
