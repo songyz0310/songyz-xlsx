@@ -49,6 +49,7 @@
 # 使用npm 安装依赖
 npm install songyz-style --save
 
+# 核心代码
 # import example
 import XLSX from 'songyz-xlsx'
 
